@@ -27,6 +27,7 @@
 docker run -d \
   --gpus all \
   -p 7860:7860 \
+  -p 8888:8888 \
   yuvraj108c/audiocraft-plus:latest
 ```
 
