@@ -20,4 +20,4 @@ RUN --mount=type=cache,target=/root/.cache/pip \
     pip install -r requirements.txt
 
 COPY --chmod=755 scripts/* .
-CMD ["./start.sh"]
+CMD ["/workspace/audiocraft/start.sh"]
